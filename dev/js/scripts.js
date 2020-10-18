@@ -1,5 +1,5 @@
 import gsap from "gsap/gsap-core"
-import {iconAnimation} from "./demo.js"
+import {loadAnimation} from "./demo.js"
 
-const mainTL = gsap.timeline();
-mainTL.add(iconAnimation());
+const mainTL = gsap.timeline({repeat:-1});
+mainTL.add(loadAnimation());
