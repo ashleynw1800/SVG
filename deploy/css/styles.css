@@ -381,7 +381,7 @@ textarea {
 ============= */
 #svg-demo {
   display: grid;
-  grid-template-columns: auto 50% auto;
+  grid-template-columns: auto 100% auto;
   grid-template-areas: ". svg .";
   justify-content: center;
   align-items: center; }
@@ -391,7 +391,8 @@ textarea {
     justify-content: center;
     align-items: center; }
     #svg-demo > div svg {
-      width: 100%; }
+      width: 100%;
+      height: 100%; }
 
 #color {
   height: 100%;
