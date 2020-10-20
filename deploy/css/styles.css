@@ -389,8 +389,6 @@ textarea {
     grid-area: svg;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 120vh; }
+    align-items: center; }
     #svg-demo > div svg {
       width: 100%; }
