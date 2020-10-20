@@ -67,8 +67,8 @@ loadTL.from("#big-circle",{duration:1, alpha:0, ease:"back", scale:3, rotation:3
         }
       },"-=4")
 
-      gsap.to("#color", {duration: 1, autoAlpha: 1, delay: 3.5, ease: "power1.out", repeat: -1, repeatDelay: 4});
-      gsap.to("#color", {duration: 1, autoAlpha: 0, delay: 4.0, ease: "power1.out", repeat: -1, repeatDelay: 4});
+      gsap.to("#color", {duration: 1, autoAlpha: 1, delay: 3.5, ease: "power1.out", repeat: -1, repeatDelay: 3.5});
+      gsap.to("#color", {duration: 0.5, autoAlpha: 0, delay: 4, ease: "power1.out", repeat: -1, repeatDelay: 4}, "-=0.5");
     //   loadTL.to('#color', {opacity:1, onComplete: function() { 
     //     gsap.set(this.targets()[0], {display: 'none'});
     //     }});
