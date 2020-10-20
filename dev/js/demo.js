@@ -69,25 +69,9 @@ loadTL.from("#big-circle",{duration:1, alpha:0, ease:"back", scale:3, rotation:3
 
       gsap.to("#color", {duration: 1, autoAlpha: 1, delay: 3.5, ease: "power1.out", repeat: -1, repeatDelay: 3.5});
       gsap.to("#color", {duration: 0.5, autoAlpha: 0, delay: 4, ease: "power1.out", repeat: -1, repeatDelay: 4}, "-=0.5");
-    //   loadTL.to('#color', {opacity:1, onComplete: function() { 
-    //     gsap.set(this.targets()[0], {display: 'none'});
-    //     }});
-    //gsap.from("#color", {duration:1, alpha:0})
-    //gsap.to("#color", {duration:1, alpha:0})
-    //   gsap.from("#body", {duration:1, alpha:0})
-    //   gsap.to("#body", {duration:1, alpha:0})
       
     
 
 export function loadAnimation(){
     return loadTL;
 }
-
-// const inTL = gsap.timeline({paused:true});
-
-// inTL.to("#color",{backgroundColor: 'rgba(0,0,0,.85)', instantAlpha:0})
-//     // .to("#color", 1.2, {backgroundColor: 'rgba(0,0,0,.85)', alpha:0, ease:"power1.out"}, '-=0.6');
-
-//     export function inAnimation(){
-//         return inTL;
-//     }
