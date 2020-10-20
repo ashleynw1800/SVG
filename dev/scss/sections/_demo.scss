@@ -1,9 +1,6 @@
 /* =============
     Demo
 ============= */
-// #body{
-//     background-color: #F7743C;
-// }
 #svg-demo{
     display: grid;
     grid-template-columns: auto 50% auto;
@@ -23,6 +20,9 @@
         }
     }
 }
-// #color{
-//     background-color: #F7743C;
-// }
+#color{
+    height: 100%;
+    width: 100%;
+    background-color: #F7743C;
+    visibility: hidden;
+ }

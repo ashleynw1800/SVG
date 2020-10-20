@@ -392,3 +392,9 @@ textarea {
     align-items: center; }
     #svg-demo > div svg {
       width: 100%; }
+
+#color {
+  height: 100%;
+  width: 100%;
+  background-color: #F7743C;
+  visibility: hidden; }
