@@ -45,7 +45,7 @@ loadTL.from("#big-circle",{duration:1, alpha:0, ease:"back", scale:3, rotation:3
     .to("#med-circle-load",{duration:1, alpha:0, ease:"back", scale:0, rotation:360, delay:1}, "3")
     .to("#small-circle-load",{duration:1, alpha:0, ease:"back", scale:3, rotation:360, delay:1}, "3")
 
-    .to("#dot-blue",{visibility:"visible", duration:1.5, scale:20}, "-=1.3")
+    .to("#dot-blue",{visibility:"visible", duration:1.5, scale:20}, "-=1.4")
     
     // gsap.to("#rect", {
     //     duration: 0.5, 
