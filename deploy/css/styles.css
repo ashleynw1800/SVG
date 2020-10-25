@@ -393,6 +393,14 @@ textarea {
     #svg-demo > div svg {
       width: 100%;
       height: 100%; }
+      #svg-demo > div svg > #big-circle-load {
+        visibility: hidden; }
+      #svg-demo > div svg > #med-circle-load {
+        visibility: hidden; }
+      #svg-demo > div svg > #small-circle-load {
+        visibility: hidden; }
+      #svg-demo > div svg #dot-blue {
+        visibility: hidden; }
 
 #color {
   height: 100%;

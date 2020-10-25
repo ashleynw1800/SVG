@@ -16,6 +16,18 @@
         svg{
             width: 100%;
             height: 100%;
+            >#big-circle-load{
+                visibility: hidden;
+            }
+            >#med-circle-load{
+                visibility: hidden;
+            }
+            >#small-circle-load{
+                visibility: hidden;
+            }
+            #dot-blue{
+                visibility: hidden;
+            }
         }
     }
 }
